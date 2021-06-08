@@ -5,7 +5,7 @@ import startOrm from "../config/initialize-database";
 import { User } from "../entities/User";
 import { Links } from '../components/Links'
 
-export default function Home(props) {
+export default function Users(props) {
   return (
     <div className={styles.container}>
       <Head>
